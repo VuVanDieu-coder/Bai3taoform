@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <form action="index.html" method="get">
+        <h2>Order Form</h2>
+        <h3>What would you like to buy</h3>
+        <select name="danh sách order" id="1">
+            <option value="1">Trà sữa</option>
+            <option value="1">Cafe</option>
+            <option value="1">Sinh tố</option>
+        </select>
+        <h3>How many would you like to order</h3>
+        <input type="radio" name="rd">1-$10
+        <br>
+        <input type="radio" name="rd">2-$20
+        <br>
+        <input type="radio" name="rd">3-$25
+        <h3>Name<span style="color: red">*</span></h3>
+        <input type="text" name="Firstname" placeholder="Firstname" size="15">
+        <input type="text" name="Lastname" placeholder="Lastname" size="15">
+        <h3>Email</h3>
+        <input type="text" name="email" size="35"/>
+        <h3>Phone Number</h3>
+            <input type="number" name="phone1" size="5"/> -
+            <input type="number" name="phone2" size="5"> -
+            <input type="number" name="phone3" size="5">
+        <br>
+        <h3><input type="submit" name="Submit" value="submit"></h3>
+    </form>
+</body>
+</html>
